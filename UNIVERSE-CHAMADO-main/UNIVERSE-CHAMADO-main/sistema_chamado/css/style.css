@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(../images/fictional-planet-with-colourful-night-sky-stars-nebula.jpg);
+    background-repeat: no-repeat;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+   width: 300px;
+   height: 793px;
+   background-color: #1619ce34;
+   padding: 30px;
+   border-radius: 20px;
+   
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+input{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 15px;
+}
+button{
+    background-color: #050000;
+    width: 267px;
+    height: 60px;
+    font-size: 32px;
+    color: #FFFFFF;
+    border-radius: 80px;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+

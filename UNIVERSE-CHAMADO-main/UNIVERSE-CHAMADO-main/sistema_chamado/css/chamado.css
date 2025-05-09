@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    font-size: 20px;
+    width: 100px;
+}
+
+body {
+    background-image: url(../images/fictional-planet-with-colourful-night-sky-stars-nebula.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-body-tertiary {
+
+    background-color: rgba(240, 248, 255, 0) !important;
+}
+
+.navbar-expand-lg bg-body-tertiary {
+    color: rgb(255, 255, 255);
+}
+
+.h11 {
+    color: rgb(255, 255, 255);
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.h11 {
+    color: hsl(0, 0%, 0%);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-image: radial-gradient(#ffffff, #b5d4f0);
+}
+
+textarea {
+    background-image: radial-gradient(#fff, #d6dee7);
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+
+}
+
+.h12 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.nav-link, .nav-item {
+    color: #fff;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}

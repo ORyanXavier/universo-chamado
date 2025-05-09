@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/beautiful-shining-stars-night-sky\ \(1\).jpg);
+}
+
+.container {
+     
+    display: flex;
+    margin-left:40px;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+  
+   
+  
+}
+
+form {
+    background-color: rgba(30, 64, 138, 0.459);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 5px;
+    width: 350px;
+    color: aliceblue;
+    height: 60%;
+
+
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+input, button  {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+button {
+    background-color: rgb(0, 90, 192);
+    color: white;
+    width: 100%;
+}
+
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
